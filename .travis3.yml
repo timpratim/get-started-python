@@ -5,7 +5,7 @@ notifications:
   slack: ibm-research:bLcRT4dofYlBUocjPBvlxO9p
   email: 
     recipients:
-    - tidhamecha@in.ibm.com
+    - ashusonar1998@gmail.com
     on_success: always
     on_failure: always
 
@@ -20,8 +20,8 @@ deploy:
 - provider: cloudfoundry
   username: apikey
   password: $apikey
-  api: https://api.ng.bluemix.net
-  organization: tidhamecha
+  api: https://api.eu-gb.bluemix.net
+  organization: ashusonar1998@gmail.com
   space: here
   manifest: manifest.yml
   on:
