@@ -22,7 +22,7 @@ deploy:
   password: $apikey
   api: https://api.eu-gb.bluemix.net
   organization: ashusonar1998@gmail.com
-  space: here
+  space: dev
   manifest: manifest.yml
   on:
     branch: develop
